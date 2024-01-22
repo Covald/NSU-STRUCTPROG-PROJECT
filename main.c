@@ -1,6 +1,8 @@
-#include <stdio.h>
+#include "menu.h"
+
 
 int main() {
-    printf("Hello, World!\n");
+    TODO *todo = todo_init();
+    todo_menu_main(todo);
     return 0;
 }
